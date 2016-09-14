@@ -6,7 +6,7 @@ http.createServer(function (req, res) {
   res.end('Hello World\n');
 }).listen(8080, '178.62.45.213');
 console.log('Server running at http://178.62.45.213:8080/');
+
 dns.lookup('google.com', (err, addresses, family) => {
   console.log('addresses:', addresses);
 });
-
