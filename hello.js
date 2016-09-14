@@ -1,4 +1,5 @@
 var http = require('http');
+var irc  = require('irc');
 const dns = require('dns');
 
 http.createServer(function (req, res) {
@@ -9,4 +10,8 @@ console.log('Server running at http://178.62.45.213:8080/');
 
 dns.lookup('google.com', (err, addresses, family) => {
   console.log('addresses:', addresses);
+});
+var irc = require('irc');
+var client = new irc.Client('ember.sorcery.net', 'Orange_Lord', {
+    channels: ['#banter'],
 });
