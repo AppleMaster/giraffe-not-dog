@@ -1,0 +1,11 @@
+{
+  "name": "giraffe-not-dog",
+  "version": "0.0.1",
+  "description": "",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Apple Master",
+  "license": "MIT"
+}
